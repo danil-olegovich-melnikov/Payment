@@ -1,0 +1,58 @@
+/* Обнуление стилей для всех элементов */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Удаляем списочные стили по умолчанию */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Удаляем подчеркивание у ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Обнуление стилей заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: inherit;
+}
+
+/* Установка базовых стилей для body */
+body {
+    line-height: 1;
+    font-family: sans-serif;
+    color: #000;
+}
+
+/* Сброс для изображений и видео */
+img,
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Удаляем обводку в полях формы при фокусе */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    outline: none;
+    border: none;
+    background: none;
+}
